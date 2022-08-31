@@ -20,7 +20,7 @@
 
 .first, .second {
     background-color: #a6dd95;
-    border-top: 3px dashed rgb(216, 26, 26);
+    border-top: 3px dashed rgb(175, 28, 28);
 }
 
 .first p, .second p {
