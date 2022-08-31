@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+.title {
+    background-color: #a3cbe6;
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.first, .second {
+    background-color: #a6dd95;
+    border-top: 3px dashed black;
+}
+
+.first p, .second p {
+    font-size: 1.5rem;
+}
+.first a, .second a {
+    font-size: 1.25rem;
+}
+.first {
+    
+    grid-area: first;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+a {
+    padding-right: 10px;
+}
+a:hover {
+    color: red;
+}
+.second {
+
+    grid-area: second;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.whitespace {
+    grid-area: space;
+    background-color: #a6dd95;
+}
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
+.navigation ul {
+    
+    display: flex;
+    justify-content: space-around;
+}
+.navigation {
+    position: fixed;
+    background-color: lightcoral;
+    height: 10vh;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+}
+.main{
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr .2fr;
+    height: 150vh;
+    grid-template-areas:
+                        "title"
+                        "first"
+                        "second"
+                        "space";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'sans-serif';
+}
