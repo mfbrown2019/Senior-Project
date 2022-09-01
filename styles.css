@@ -20,7 +20,7 @@
 
 .first, .second {
     background-color: #a6dd95;
-    border-top: 3px dashed rgb(175, 28, 28);
+    border-top: 3px dashed black;
 }
 
 .first p, .second p {
@@ -42,7 +42,7 @@ a {
     padding-right: 10px;
 }
 a:hover {
-    color: green;
+    color: red;
 }
 .second {
 
