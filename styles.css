@@ -19,16 +19,27 @@
     flex-direction: column;
 }
 
-.first, .second {
-    background-color: white;
-    border-top: 3px dashed black;
+.first div, .second div {
+    margin-top: 5px;
 }
+
 
 .first p, .second p {
     font-size: 1.5rem;
 }
+
+.first a:hover, .second a:hover {
+    border: 1px solid black;
+    color: rgb(46, 46, 46);
+    background: white;
+}
 .first a, .second a {
     font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 0px 5px;
+    background: rgb(46, 46, 46);
 }
 .first {
     
@@ -39,12 +50,10 @@
     justify-content: space-around;
     flex-direction: column;
 }
-a {
+/* a {
     padding-right: 10px;
-}
-a:hover {
-    color: red;
-}
+} */
+
 .second {
 
     grid-area: second;
@@ -53,12 +62,13 @@ a:hover {
     text-align: center;
     justify-content: space-around;
     flex-direction: column;
+    border-top: 3px dashed rgb(46, 46, 46);
 }
 
 
 .whitespace {
     grid-area: space;
-    background-color: #a6dd95;
+    background-color: white;
 }
 li {
     list-style-type: none;
