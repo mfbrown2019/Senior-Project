@@ -78,6 +78,7 @@ li {
     
     display: flex;
     justify-content: space-around;
+    color: black;
 }
 .navigation {
     position: fixed;
