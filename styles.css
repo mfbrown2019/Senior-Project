@@ -9,17 +9,18 @@
 }
 
 .title {
-    background-color: #a3cbe6;
+    background-color: rgb(46, 46, 46);
     grid-area: title;
     display: flex;
     align-items: center;
     text-align: center;
+    color: rgb(255, 250, 240);
     justify-content: space-around;
     flex-direction: column;
 }
 
 .first, .second {
-    background-color: #a6dd95;
+    background-color: white;
     border-top: 3px dashed black;
 }
 
@@ -70,7 +71,8 @@ li {
 }
 .navigation {
     position: fixed;
-    background-color: lightcoral;
+    background-color: rgb(255, 250, 240);
+    border-bottom: 3px solid black;
     height: 10vh;
     z-index: 1;
     width: 100%;
