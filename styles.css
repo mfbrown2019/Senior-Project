@@ -24,8 +24,14 @@
 }
 
 
+
+
 .first p, .second p {
     font-size: 1.5rem;
+}
+
+.nov28 {
+    margin-bottom: 1rem;
 }
 
 .first a:hover, .second a:hover {
