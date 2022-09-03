@@ -132,3 +132,18 @@ li {
     .title img {display:none;}
 }
 
+@media only screen and (max-width: 400px) {
+    .title p, h1{
+        font-size: 1.25rem;
+    }
+    .first div,.second div{
+        display: flex;
+        flex-direction: column;
+    }
+    a, p{
+        margin-bottom: 10px;
+    }
+    .title{
+        height: 100vh;
+    }
+}
