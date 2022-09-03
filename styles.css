@@ -132,7 +132,7 @@ li {
     .title img {display:none;}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .title p, h1{
         font-size: 1.25rem;
     }
