@@ -143,7 +143,23 @@ li {
     a, p{
         margin-bottom: 10px;
     }
+    body{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 0.01fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "Title"
+        "First"
+        "Second";
+        position: absolute;
+        width: 100%;
+        top: -10vh;
+    }
     .title{
         height: 100vh;
+        grid-area: "Title";
     }
+    .first,.second{height:100vh;}
+    .first{grid-area: "First";}
+    .second{grid-area: "Second";}
+    .navigation{border: none;}
 }
