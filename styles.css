@@ -33,6 +33,7 @@
     background-color: rgb(46, 46, 46);
     display: flex;
     justify-content: space-between;
+    height: 90vh;
 }
 
 .first div, .second div {
@@ -106,7 +107,6 @@ li {
     color: black;
 }
 .navigation {
-    position: fixed;
     background-color: rgb(255, 250, 240);
     border-bottom: 3px solid black;
     height: 10vh;
